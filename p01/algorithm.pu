@@ -1,0 +1,8 @@
+@startuml
+
+(*) --> get two numbers a and b as parameters
+--> result = a+b
+--> return result
+--> (*)
+
+@enduml
