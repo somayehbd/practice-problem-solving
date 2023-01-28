@@ -1,0 +1,6 @@
+@startuml
+(*) --> get a number (n)
+--> result = n + 1
+--> return result
+--> (*)
+@enduml
