@@ -1,0 +1,6 @@
+@startuml
+(*) --> get two number as parameter(base,height)
+--> result=(base*height)/2
+--> return result
+--> (*)
+@enduml
