@@ -1,1 +1,1 @@
-# practice-js
+# practice-problem-solving
