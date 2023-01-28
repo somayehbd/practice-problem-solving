@@ -1,0 +1,6 @@
+@startuml
+(*) --> take one number as parameter(a)
+--> result= a*365
+--> return result
+--> (*)
+@enduml
