@@ -1,0 +1,7 @@
+@startuml
+
+(*) --> get a number (a)
+--> return a*60
+--> (*)
+
+@enduml
