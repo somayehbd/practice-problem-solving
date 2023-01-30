@@ -1,0 +1,6 @@
+@startuml
+(*) --> take one array as a parameter(arr)
+--> result=arr[0]
+--> return result
+--> (*)
+@enduml
