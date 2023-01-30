@@ -1,0 +1,6 @@
+@startuml
+(*) --> take two nubwr as parameters(voltage,current)
+ --> result=voltage*current
+ --> return result
+ -->(*)
+@enduml
