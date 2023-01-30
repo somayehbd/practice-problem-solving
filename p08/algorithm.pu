@@ -1,0 +1,5 @@
+@startuml
+(*) --> take one number as parameter(a)
+ --> Seconds= a* 3600
+--> return Seconds
+@enduml
