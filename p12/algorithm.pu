@@ -1,0 +1,15 @@
+@startuml
+(*)--> take an array(arr)
+--> min = +inf
+--> move to next element
+if iterated all elements of array then
+    --> [yes] return min
+    --> (*)
+else
+    --> [no] if arr[i] < min then
+        --> [yes] min = arr[i]
+        --> move to next element
+    else
+        --> [no] move to next element
+endif
+@enduml
