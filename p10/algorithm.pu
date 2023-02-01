@@ -1,0 +1,10 @@
+@startuml
+(*) --> take one number as paramer(a)
+ if a <= 0 then
+    --> [yes] return true
+    --> (*)
+else
+    --> [no] return false
+    --> (*)
+endif
+@enduml
