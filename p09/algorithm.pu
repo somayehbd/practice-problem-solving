@@ -1,0 +1,7 @@
+@startuml
+(*) --> take 2 number as parameter(length , width )
+--> result = 2 * (length+width)
+--> return result
+--> (*)
+
+@enduml
