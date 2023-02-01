@@ -1,0 +1,6 @@
+@startuml
+(*)--> take 2 numbers as parameter(a,b)
+ --> result= a % b
+  --> return result
+  -->(*)
+@enduml
