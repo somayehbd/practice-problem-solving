@@ -1,0 +1,17 @@
+@startuml
+(*)--> take one array as parameter(arr)
+--> i=0
+--> ==S1==
+if i < arr.length then
+    -->[yes] if arr[i] == 0 then
+        --> [yes] return i
+        --> (*)
+    else
+        --> [no] i++
+        --> ==S1==
+    endif
+else
+--> [no] return -1
+--> (*)
+endif
+@enduml
