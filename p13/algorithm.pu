@@ -1,0 +1,13 @@
+@startuml
+(*)--> take one array as parameter(arr)
+--> sum = 0, i = 0
+--> == S1 == 
+if i < arr.length then
+    --> [yes] sum = sum + arr[i]
+    --> i++
+    --> == S1 ==
+else
+    --> [no] return sum
+    --> (*)
+endif
+@enduml
